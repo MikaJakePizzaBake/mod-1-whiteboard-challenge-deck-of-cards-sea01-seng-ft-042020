@@ -7,7 +7,7 @@ class Deck
     binding.pry
     @rank = rank
     @suit = suit
-    
+
   end
   def choose_card
 
