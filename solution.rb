@@ -4,9 +4,10 @@ class Deck
   suit = %w(Hearts, Clubs, Diamonds, Spades)
   attr_reader :rank, :suit
   def initialize(rank, suit)
+    binding.pry
     @rank = rank
     @suit = suit
-    binding.pry
+    
   end
   def choose_card
 
