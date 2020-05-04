@@ -5,7 +5,7 @@ class Deck
     @suit = suit
   end
   def choose_card
-    
+
   end
 
 end
